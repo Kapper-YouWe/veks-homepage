@@ -19,6 +19,11 @@ const libre = Libre_Baskerville({
 export const metadata = {
   title: "VEKS - Forside",
   description: "VEKS - En af Danmarks største fjernvarmevirksomheder.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
